@@ -30,13 +30,14 @@ class Artist
   end
   
   def self.song_count
-    Song.all.length
     
-    # library = {}
-    # self.all.each { |musician|
-    #   library[musician] = musician.songs.length
-    # }
-    # library
+    
+    library = {}
+    self.all.each { |musician|
+      library[musician] = musician.songs.length
+    }
+    binding.pry
+    library
   end
   
 end
