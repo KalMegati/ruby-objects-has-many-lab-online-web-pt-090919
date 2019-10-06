@@ -5,10 +5,11 @@ class Song
   SONGS = []
   
   def initialize(title)
-    
     @title = title
   end
   
-  
+  def self.all
+    SONGS
+  end
   
 end
