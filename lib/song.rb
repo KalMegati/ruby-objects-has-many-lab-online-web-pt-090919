@@ -6,6 +6,7 @@ class Song
   
   def initialize(title)
     @title = title
+    SONGS << @title
   end
   
   def self.all
