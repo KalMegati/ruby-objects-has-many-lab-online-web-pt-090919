@@ -30,7 +30,10 @@ class Artist
   end
   
   def self.song_count
-    ARTISTS
+    library = {}
+    self.all.each { |musician| 
+      
+    }
   end
   
 end
