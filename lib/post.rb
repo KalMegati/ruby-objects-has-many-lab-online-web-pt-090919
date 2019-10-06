@@ -6,6 +6,7 @@ class Post
   
   def initialize(name)
     @name = name
+    POSTS << self
   end
   
   
