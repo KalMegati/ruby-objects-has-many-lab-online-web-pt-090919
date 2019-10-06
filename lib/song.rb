@@ -4,8 +4,7 @@ class Song
   
   SONGS = []
   
-  def initialize(artist, title)
-    @artist = artist
+  def initialize(title)
     @title = title
   end
   
