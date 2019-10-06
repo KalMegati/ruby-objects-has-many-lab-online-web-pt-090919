@@ -9,6 +9,8 @@ class Post
     POSTS << self
   end
   
-  
+  def self.all
+    POSTS
+  end
   
 end
