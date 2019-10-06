@@ -14,4 +14,6 @@ class Author
     Post.all
   end
   
+  
+  
 end
