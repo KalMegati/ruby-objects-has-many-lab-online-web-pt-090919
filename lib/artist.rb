@@ -8,7 +8,7 @@ class Artist
   
   def songs
     Song.SONGS.map { |tune|
-      
+      tune.
     }
   end
   
